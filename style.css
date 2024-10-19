@@ -1,0 +1,136 @@
+/* font-family: "Roboto", sans-serif; */
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/fd-site.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    /*background-color:#8A51FC;*/
+}
+
+.img-logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+main {
+    background-color: #F4F4F4;
+    width: 375px;
+    height: 712px;
+    margin: 0 auto 40px;
+    border-radius: 20px;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    appearance: none;
+    padding-left: 15px;
+    cursor: pointer;
+}
+input {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    appearance: none;
+    padding-left: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 24px;
+    color: #777777;
+    position: relative;
+    top: 44px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #772FD3;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    margin-top: 44px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+}
+
+.img-convert{
+    display: block;
+    margin: auto;
+    width: 44px;
+    height: 44px;
+    
+}
+
+.img-seta{
+    display: block;
+    margin: auto;
+    width: 35px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.value-convert, .value-converted{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+}
+div {
+    margin-top: 12px;
+}
